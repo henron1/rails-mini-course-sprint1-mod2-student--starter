@@ -36,6 +36,6 @@ class Book
 end
 
 book = Book.new("Haunted", "Chuck Palanhuik", true, 5)
-# lentBook = book.lend
-puts book.recommended_books
+lentBook = book.lend
+# puts book.recommended_books
 puts book
